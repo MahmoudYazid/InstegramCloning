@@ -1,0 +1,358 @@
+
+.right{
+  background-color: #ffffff;
+    
+  max-width: 100%;
+  display: grid;
+  grid-template-rows: 8fr 2fr 1fr 2fr;
+
+}
+.LoginContainer{
+    border: 1px #dbdbdb solid;
+    margin-left: 1rem;
+    max-width: 24rem;
+    width: 24rem;
+    margin-top: 2rem;
+    margin-right: 1rem;
+    
+   
+}
+.Logo{
+    max-width: 11rem;
+    height: 7rem;
+    margin-left: 5rem;
+    margin-right: 6rem;
+}
+.inputTextName{
+    position: relative;
+    outline: none;
+    background-color: #fafafa;
+    border-radius: 3px;
+    height: 2.3rem;
+    margin-top: 1rem;
+    border: 1px solid #dbdbdb ;
+    width: 64%;
+    max-width: 40rem;
+    margin-left: 4rem;
+    margin-right: 6rem;
+}
+
+
+.inputTextName::placeholder{
+    font-size: 12px;
+    color: #1a1919;
+    
+}
+
+
+.passwordText{
+   position: relative;
+    outline: none;
+    background-color: #fafafa;
+    border-radius: 3px;
+    height: 2.3rem;
+    margin-top: 1rem;
+    border: 1px solid #dbdbdb ;
+    margin-top: .5rem;
+       width: 64%;
+max-width: 40rem;
+    margin-left: 4rem;
+    margin-right: 6rem;
+
+}
+
+
+.passwordText::placeholder{
+    font-size: 12px;
+    color: #1a1919;
+    
+}
+
+.Loginbtm{
+    background-color: #4db5f9;
+    text-align: center;
+    width: 65%;
+    margin-top: .3rem;
+    margin-left: 4rem;
+    border-radius: 6px;
+    height: 2rem;
+    cursor: pointer;
+}
+.Loginbtm p{
+    margin-top: 1rem;
+    color: white;
+
+    font-weight: bolder;
+    
+}
+.hr{
+    width: 65%;
+      margin-left: 4rem;
+      margin-top: 1rem;
+}
+.or{
+     margin-left: 10.5rem;
+     position: relative;
+     bottom:  1.8rem;
+     background-color: white;
+     color:  #6d6b6b;
+
+     width: 3rem;
+    padding-left:.7rem ;
+    margin-top: 1rem;
+}
+
+.DivFacebook{
+    position: relative;
+    bottom: 2rem;
+          margin-left: 6rem;
+}
+.DivFacebook p{
+    display: inline;
+    margin-left: .3rem;
+    color: #385185;
+    cursor: pointer;
+}
+.DivFacebook .facebooklogo{
+
+    color: #385185;
+    width: 1.5rem;
+    height: 1.5rem;
+    cursor: pointer;
+
+}
+.ForgetPassword{
+    color: #385185;
+          margin-left: 9rem;
+          font-size: 12px;
+          position: absolute;
+          top: 23rem;
+                   cursor: pointer;
+
+}
+
+
+.part2{
+    height: 4rem;
+      max-width: 24rem;
+    width: 24rem;
+       border: 1px solid #dbdbdb ;
+        margin-left: 1rem;
+        margin-top: 1rem;
+        text-align: center;
+        
+
+}
+.part2 p{
+    margin-top:1.2rem ;
+}
+.signuptext{
+    color: #4db5f9;
+    font-size: 17px;
+    cursor: pointer;
+    display: inline;
+    font-weight:550;
+}
+.Gettheapp{ 
+
+    height: 2rem;
+      max-width: 24rem;
+    width: 24rem;
+     
+        margin-left: 1rem;
+        position: relative;
+        bottom: 1rem;
+        text-align: center;
+    }
+.SocialMediaBtmsDiv{
+
+      max-width: 25rem;
+      position: relative;
+      bottom: 2rem;
+    
+      height: 4rem;
+    margin-right: 3rem;
+      display: flex;
+      flex-direction: row;
+      direction: ltr;
+
+}
+.MicrosoftDev{
+        cursor: pointer;
+ 
+    margin-right: auto;
+    height: 2.7rem;
+    width: 10rem;
+    background-color: black;
+        border-radius: 5px;
+    display: flex ;
+    flex-direction: row;
+    align-items: center;
+    justify-items: center;
+    justify-content: center;
+
+}
+.GoogleplayDev{
+    cursor: pointer;
+    margin-left: 2rem;
+    margin-left: auto;
+    margin-right: 1rem;
+        
+        
+    height: 2.7rem;
+    width: 10rem;
+    background-color: black;
+        border-radius: 15px;
+    display: flex ;
+    flex-direction: row;
+    align-items: center;
+    justify-items: center;
+    justify-content: center;
+        
+
+}
+.FaGooglePlay{
+    margin-top: .1rem;
+    color: white;
+    display: inline;
+    width: 1.5rem;
+    height: 1.5rem;
+    
+}
+.GoogleplayDev p{
+    color: white;
+    display: inline;
+    margin-top: .9rem;
+    margin-left: .5rem;
+        
+}
+.MicrosoftDev p{
+    color: white;
+    display: inline;
+    margin-top: .9rem;
+    margin-left: .5rem;
+        
+}
+.span1 {
+    font-size: 10px;
+}
+.span2 {
+    font-size: 15px;
+    position: relative;
+    bottom: .4rem;
+    font-weight: bolder;
+}
+@media screen and (max-width:1442px) {
+    .SocialMediaBtmsDiv{
+
+      max-width: 25rem;
+      position: relative;
+      bottom: 2rem;
+      margin-left: 3rem;
+      height: 4rem;
+      
+    
+      display: flex;
+      flex-direction: row;
+      direction: ltr;
+
+}
+    .GoogleplayDev{
+    cursor: pointer;
+    margin-left: 2rem;
+    margin-left: auto;
+    margin-right: 1rem;
+        
+        
+    height: 2.7rem;
+    max-width: 50%;
+    background-color: black;
+        border-radius: 15px;
+    display: flex ;
+    flex-direction: row;
+    align-items: center;
+    justify-items: center;
+    justify-content: center;
+        
+
+}
+   .MicrosoftDev{
+        cursor: pointer;
+   
+    margin-right: auto;
+    height: 2.7rem;
+    width: 50%;
+    background-color: black;
+        border-radius: 5px;
+    display: flex ;
+    flex-direction: row;
+    align-items: center;
+    justify-items: center;
+    justify-content: center;
+
+}
+.part2{
+    height: 4rem;
+      max-width: 24rem;
+    width: 24rem;
+       border: 0px solid #dbdbdb ;
+        margin-left: 1rem;
+        margin-top: 1rem;
+        text-align: center;
+        
+
+}
+.part2 p{
+    margin-top:1.2rem ;
+}
+.LoginContainer{
+    border: 0px solid black;
+    margin-left: 1rem;
+    max-width: 24rem;
+    width: 24rem;
+    margin-top: 4rem;
+    margin-right: 1rem;
+    
+   
+}
+.right{
+  background-color: #ffffff;
+  width: 100vw;
+  max-width: 100%;
+  display: grid;
+  grid-template-rows: 9fr 2fr 1fr 2fr;
+  text-align: center;
+  justify-content: center;
+  justify-items: center;
+
+}
+
+.DivFacebook{
+    position: relative;
+    bottom: 2rem;
+          margin-left: 0rem;
+}
+.DivFacebook p{
+    display: inline;
+    margin-left: .3rem;
+    color: #385185;
+    cursor: pointer;
+}
+.DivFacebook .facebooklogo{
+
+    color: #385185;
+    width: 1.5rem;
+    height: 1.5rem;
+    cursor: pointer;
+
+}
+.ForgetPassword{
+    color: #385185;
+          margin-left: 0rem;
+          font-size: 14px;
+          position: relative;
+          top: 0rem;
+          cursor: pointer;
+
+}
+}

@@ -1,0 +1,30 @@
+.lower{
+  max-Width: 100vw;
+          width: 100vw;
+          height: 5vh;
+
+          background-color: rgb(255,255,255);
+          text-align: center;
+}
+.UpperRow{
+    background-color: yellow;
+    width: 100%;
+    height: 3vh;
+    font-size: smaller;
+    text-align: center;
+}
+.LowerRow{
+        background-color: green;
+    width: 100%;
+    height: 2vh;
+}
+.FirstlowerTextRow p{
+    display: inline;
+    margin: .3rem;
+    font-size: smaller;
+    color: rgb(115, 115, 115);
+}
+.FirstlowerTextRow p:hover{
+text-decoration: underline;
+cursor: pointer;
+}

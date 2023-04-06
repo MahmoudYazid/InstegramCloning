@@ -1,0 +1,80 @@
+.left{
+  background-color: yellow;
+  max-width: 50rem;
+  height: 95vh;
+  display: flex;
+  flex-direction: row;
+  direction: rtl;
+  background-color: white;
+
+
+}
+
+.othermobile{
+
+      max-width: 90rem;
+    height: 35rem;
+    position: relative;
+      margin-left: auto;
+      margin-top: 2rem;
+      z-index: 3;
+
+
+
+}
+.BackendMobile{
+      max-width: 85rem;
+    height: 33rem;
+    position: relative;
+      margin-left: auto;
+      margin-top: 1rem;
+      left: 50.5%;
+      top: .5rem;
+      z-index: 1;
+
+}
+@keyframes ChangePhoto{
+    0%{
+        content: url('../img/img/screenshot2.png');
+    }
+    100%{
+        content: url('../img/img/screenshot4.png');
+    }
+}
+.screenshot{
+    max-width: 85rem;
+    height: 33rem;
+    position: relative;
+    margin-left: auto;
+    margin-top: 1rem;
+    left: 33.5%;
+    top: 2.1rem;
+    z-index: 4;
+    animation-name: ChangePhoto;
+    animation-duration: 5s;
+    animation-fill-mode: both;
+    animation-timing-function: ease;
+    animation-iteration-count: infinite;
+}
+
+.screenshot2{
+      max-width: 85rem;
+    height: 30rem;
+    position: relative;
+      margin-left: auto;
+      margin-top: 1rem;
+      left: 81.5%;
+      top: 2.1rem;
+      z-index: 2;
+
+
+}
+
+@media screen and (max-width:1442px) {
+      .left{
+position: absolute;
+visibility: hidden;
+
+}
+}
+

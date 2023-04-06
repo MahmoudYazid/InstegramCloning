@@ -1,0 +1,32 @@
+.MainContainer{
+  max-Width: 100vw;
+          width: 100vw;
+          height: 100vh;
+display: grid;
+grid-template-rows: 2fr 2fr;
+
+}
+.upper{
+max-Width: 100vw;
+          width: 100vw;
+          height: 95vh;
+          display: grid;
+grid-template-columns: 1fr 1fr;
+background-color: green;
+}
+
+
+
+
+@media screen and (max-width:1442px) {
+.MainContainer{
+  max-Width: 100vw;
+          width: 100vw;
+          height: 100vh;
+display: grid;
+grid-template-rows: 1fr ;
+
+}
+
+
+}
